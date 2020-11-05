@@ -1,5 +1,8 @@
 body{
+<<<<<<< HEAD
     overflow: hidden;
+=======
+>>>>>>> 9499651fd62248d9524c2948922b8b792bfb83ef
     background-color: seashell;
 }
 
@@ -31,4 +34,8 @@ body{
 
 .list-text{
     font-size: medium;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9499651fd62248d9524c2948922b8b792bfb83ef
