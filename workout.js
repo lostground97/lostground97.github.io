@@ -41,9 +41,15 @@ const workoutData = {
   }
 };
 
-function imageUrl(exercise, index) {
-  const seed = encodeURIComponent(`${exercise}-${index}`);
-  return `https://picsum.photos/seed/${seed}/640/480`;
+function slugify(value) {
+  return value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+}
+
+function imagePath(muscle, exercise, index) {
+  return `images/exercises/${muscle}-${slugify(exercise)}-${index}.svg`;
 }
 
 function renderWorkout(muscle) {
@@ -65,8 +71,8 @@ function renderWorkout(muscle) {
 
     for (let i = 1; i <= 3; i += 1) {
       const img = document.createElement('img');
-      img.src = imageUrl(exercise, i);
-      img.alt = `${exercise} demo ${i}`;
+      img.src = imagePath(muscle, exercise, i);
+      img.alt = `${exercise} static demo ${i}`;
       img.loading = 'lazy';
       images.appendChild(img);
     }
