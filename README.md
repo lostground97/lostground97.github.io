@@ -9,3 +9,4 @@ Simple workout planner built with plain HTML, CSS, and JavaScript.
 ## Images
 - Static local exercise images are stored in `images/exercises`.
 - Each exercise card shows 3 local static `.svg` images.
+
