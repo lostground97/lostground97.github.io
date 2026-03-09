@@ -1,91 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Rishabh Sethi</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="index.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-<<<<<<< HEAD
-    
-=======
->>>>>>> 39b2f2dfbe64dc954365e4dd9f1daed3332c210d
-    /* Set gray background color and 100% height */
-    .sidenav {
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height: auto;} 
-    }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workout Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <h1>Workout Tracker</h1>
+        <p>Pick today’s workout day and instantly see your exercise plan.</p>
+      </header>
 
-<div class="container-fluid">
-  <div class="row content">
-    <div class="col-sm-3 sidenav">
-      <h2 id="head-text">Rishabh Sethi</h2>
-      <center>
-      <img src="16IT8061.jpg" id="head-image"/>
-      </center>
-      <ul class="nav nav-pills nav-stacked">
-        <li><a href="https://www.linkedin.com/in/rishabhsethi97" target="new">LinkedIn</a></li>
-        <li><a href="./resume.html" target="new">Resume</a></li>
-        <li><a href="http://codeforces.com/profile/not_so_cool_handle" target="new">Codeforces @not_so_cool_handle</a></li>
-        <li><a href="https://www.goodreads.com/lostground97" target="new">Goodreads @lostground97</a></li>
-        <li><a href="http://lostground25.wordpress.com/" target="new">My Writings @lostground97</a></li>
-      </ul><br>
-    </div>
-
-    <div class="col-sm-9">
-      <h2>Competitive Coder With A Reading Habit</h2>
-      <hr>
-      <p class="intro-text">
-        I am Rishabh Sethi currently working in <a href="https://en.wikipedia.org/wiki/Amazon_(company)" target="new">Amazon</a> as a Software Development Engineer. I studied Information Technology at <a href="https://nitdgp.ac.in/" target="new">National Institute Of Technology Durgapur</a> from 2016-2020. My major interest include sport coding and reading books at incredible speed.
-      </p>
-      <br>
-      <p class="intro-text">My past achievements and experiences are as follows</p>
-      <ul>
-        <li class="list-text">Worked as Software Developer at <a href="https://en.wikipedia.org/wiki/Wells_Fargo" target="new">Wells Fargo</a> from August 2020 to May 2021</li>
-        <li class="list-text">Represeted NIT Durgapur in ICPC Regionals in 2018 at Amritapuri and Kharagpur <a href="https://icpc.global/ICPCID/P5L76LC4KCWV" target="new"><i>(ICPC Profile)</i></a></li>
-        <li class="list-text">Worked as a Software Developer Intern at Expedia Group from May 2019 to July 2019</li>
-        <li class="list-text">Contest head at <a href="https://www.recursionnitd.in" target="new">RECursion</a> a non-profit society at NIT Durgapur meant for betterment of programming culture at NIT Durgapur</li>
-      </ul>
-      <br>
-      <p class="intro-text">I am trying to keep my Goodreads account fairly active. You can find about my readings <a href="https://www.goodreads.com/lostground97" target="new">@lostground97</a>. My reading list include :</p>
-      <ul>
-        <li class="list-text">All books by Yuval Noah Harari, Dan Brown and even most probably John Green</li>
-        <li class="list-text">In suspense genre I've read <i>Fight Club, Tell No One, Tell Me Your Dreams</i> and many more.</li>
-        <li class="list-text">Going for the self help books, I've read <i>Ikigai, Who moved my cheese, I moved your cheese</i> etc.</li>
-      </ul>
-      <br>
-      <p class="intro-text">I usually don't work on personal projects but I would someday like to create an <i>algorithm to read human fellings and provide specific song feedback depending on the day and various other factors.</i> I like reading papers on Neurological Aspects of Computer Science.</p>
-      <p class="intro-text">You can find me pretty active on Steam <a href="https://steamcommunity.com/id/lostground97/" target="new"><i>@lostground97</i></a>. Feel free to contact my if you need some reading recommendation or want to discuss some mind blowing idea. I'm up for anything from death of a star to what your handwriting has to say about you. <br><i>My email is : rishabhsethi [.] stark [@] gmail [.] com</i></p>
-    </div>
-  </div>
-</div>
-
-<footer class="container-fluid" id="footer">
-  <p>Last Updated : 07/05/2021</p>
-</footer>
-
-</body>
+      <section>
+        <h2 class="section-title">Choose Your Muscle Day</h2>
+        <div class="day-grid">
+          <a class="day-card" href="chest.html">Chest Day</a>
+          <a class="day-card" href="back.html">Back Day</a>
+          <a class="day-card" href="shoulders.html">Shoulders Day</a>
+          <a class="day-card" href="legs.html">Legs Day</a>
+          <a class="day-card" href="arms.html">Arms Day</a>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

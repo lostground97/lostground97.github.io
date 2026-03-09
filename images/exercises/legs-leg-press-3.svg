@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#7c2d12"/>
+  <rect x="20" y="20" width="600" height="440" fill="none" stroke="#e2e8f0" stroke-width="4" rx="16"/>
+  <text x="320" y="200" text-anchor="middle" fill="#e2e8f0" font-size="34" font-family="Arial" font-weight="700">Legs Day</text>
+  <text x="320" y="255" text-anchor="middle" fill="#f8fafc" font-size="28" font-family="Arial">Leg Press</text>
+  <text x="320" y="315" text-anchor="middle" fill="#93c5fd" font-size="22" font-family="Arial">Static image 3 / 3</text>
+</svg>
